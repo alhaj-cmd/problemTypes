@@ -1,4 +1,4 @@
-# Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+## Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 
 TypeScript-এর মূল উদ্দেশ্য হলো type safety নিশ্চিত করা, ভুল টাইপের ডাটা ব্যবহার করলে আগে থেকেই error ধরা। 
 
