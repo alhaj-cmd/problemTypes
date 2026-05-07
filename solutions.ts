@@ -5,7 +5,7 @@ function filterEvenNumbers(numbers: number[]): number[] {
 }
 // Even Numbers usage
 const result = filterEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8]);
-console.log(result);
+
 
 
 /* -------- problem 2 : Write a function reverseString that takes a string as input and returns the reversed version of that string. ----- */
@@ -14,9 +14,9 @@ console.log(result);
 function reverseString(text: string) {
     return text.split("").reverse().join("");
 }
-
+// input reverseString 
 const resultOne = reverseString('typescript');
-console.log(resultOne);
+
 
 /* ---  problem 3 : Define a union type StringOrNumber and create a function checkType that uses type guards to return "String" if the input is a string or "Number" if the input is a number. */
 
@@ -32,11 +32,10 @@ function checkType(value: StringOrNumber): string {
 
 // Sample Input 1
 const result1 = (checkType("Hello"));
-console.log(result1);
 
 // Sample Input 2
 const result2 = (checkType(42));
-console.log(result2);
+console.log(result1,result2);
 
 
 /* --- problem 4: Write a generic function getProperty that takes an object and a key, then returns the value of that key. Use constraints to ensure the key exists on the object. */
