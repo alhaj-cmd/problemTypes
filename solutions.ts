@@ -5,6 +5,7 @@ function filterEvenNumbers(numbers: number[]): number[] {
 }
 // Even Numbers usage
 const result = filterEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8]);
+console.log(result);
 
 
 
@@ -16,7 +17,7 @@ function reverseString(text: string) {
 }
 // input reverseString 
 const resultOne = reverseString('typescript');
-
+console.log(resultOne);
 
 /* ---  problem 3 : Define a union type StringOrNumber and create a function checkType that uses type guards to return "String" if the input is a string or "Number" if the input is a number. */
 
@@ -124,4 +125,4 @@ function getIntersection(arr1: number[], arr2: number[]): number[] {
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [3, 4, 5, 6, 7];
 const resultTotalArrays= (getIntersection(arr1, arr2));
-// console.log(resultTotalArrays);
+console.log(resultTotalArrays);
